@@ -1,3 +1,7 @@
+# ...existing code...
+require "logger"
+# ...existing code...
+
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
