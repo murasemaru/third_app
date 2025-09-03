@@ -50,6 +50,9 @@ gem "bootsnap", require: false
 gem "sassc-rails"
 gem "bootstrap-sass", "3.4.1"
 
+# Use bcrypt to securely hash passwords
+gem "bcrypt", "3.1.18"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
