@@ -53,6 +53,11 @@ gem "bootstrap-sass", "3.4.1"
 # Use bcrypt to securely hash passwords
 gem "bcrypt", "3.1.18"
 
+gem "faker", "2.20.0"
+gem "will_paginate",           "3.3.1"
+gem "bootstrap-will_paginate", "1.0.0"
+
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
