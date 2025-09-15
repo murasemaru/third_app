@@ -56,6 +56,11 @@ gem "bcrypt", "3.1.18"
 gem "faker", "2.20.0"
 gem "will_paginate",           "3.3.1"
 gem "bootstrap-will_paginate", "1.0.0"
+gem "active_storage_validations", "0.9.8"
+gem "image_processing", "1.12.2"
+group :production do
+  gem "aws-sdk-s3", "1.114.0", require: false
+end
 
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
